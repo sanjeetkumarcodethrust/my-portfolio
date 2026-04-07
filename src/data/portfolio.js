@@ -95,7 +95,7 @@ export const fallbackProjects = [
     description:
       'A MERN commerce platform with JWT authentication, seamless cart and checkout flows, and responsive storefront design.',
     tech_stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    github_url: 'https://github.com/yourusername/myzon',
+    github_url: 'https://github.com/sanjeetkumarcodethrust',
     live_url: 'https://example.com/myzon',
     category: 'Full Stack',
   },
@@ -105,7 +105,7 @@ export const fallbackProjects = [
     description:
       'A role-based hiring platform for recruiters and candidates with secure APIs, posting workflows, and application tracking.',
     tech_stack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
-    github_url: 'https://github.com/yourusername/job-portal',
+    github_url: 'https://github.com/sanjeetkumarcodethrust',
     live_url: 'https://example.com/job-portal',
     category: 'Recruitment',
   },
@@ -115,7 +115,7 @@ export const fallbackProjects = [
     description:
       'A backend-focused short-link service with optimized queries, reliable redirects, and a clean API surface for link management.',
     tech_stack: ['Node.js', 'Express', 'SQL', 'Redis'],
-    github_url: 'https://github.com/yourusername/url-shortener',
+    github_url: 'https://github.com/sanjeetkumarcodethrust',
     live_url: 'https://example.com/url-shortener',
     category: 'Backend',
   },
@@ -124,7 +124,7 @@ export const fallbackProjects = [
 export const socialLinks = [
   {
     label: 'GitHub',
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/sanjeetkumarcodethrust',
     icon: FiGithub,
   },
   {
