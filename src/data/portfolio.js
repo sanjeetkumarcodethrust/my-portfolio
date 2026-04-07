@@ -129,7 +129,7 @@ export const socialLinks = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/yourusername',
+    href: 'https://www.linkedin.com/in/sanjeet-kumar-b2292a249/',
     icon: FiLinkedin,
   },
   {
