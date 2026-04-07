@@ -134,18 +134,19 @@ export const socialLinks = [
   },
   {
     label: 'GeeksforGeeks',
-    href: 'https://www.geeksforgeeks.org/user/yourusername',
+    href: 'https://www.geeksforgeeks.org/user/sanjeetcs8t/',
     icon: SiGeeksforgeeks,
   },
   {
     label: 'Email',
-    href: 'mailto:sanjeet@example.com',
+    href: 'mailto:sanjeetkum960@gmail.com',
     icon: FiMail,
   },
 ];
 
 export const contactDetails = [
   'Pune, Maharashtra, India',
+  'sanjeetkum960@gmail.com',
   'Open to internships, freelance work, and impactful product teams',
   'Focused on high-performance web apps with thoughtful UI details',
 ];
