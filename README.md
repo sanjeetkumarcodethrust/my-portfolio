@@ -1,15 +1,14 @@
-You are an expert full-stack developer and UI/UX designer.
+# Sanjeet Kumar Portfolio
 
-Build a modern, highly professional personal portfolio website using:
+A premium personal portfolio built with React, Vite, Tailwind CSS, Framer Motion, React Router, and Supabase.
 
-Frontend:
-- React.js (with Vite)
+## Tech Stack
+
+- React + Vite
 - Tailwind CSS
-- Framer Motion (for animations)
+- Framer Motion
 - React Router
-
-Backend:
-- Supabase (for contact form, project storage, resume storage)
+- Supabase
 
 Design Requirements:
 - Clean, minimal, premium UI
@@ -133,3 +132,37 @@ At the end:
 - Include commands to run project
 
 Make the UI extremely attractive so it impresses recruiters instantly.
+
+## Implemented Setup Notes
+
+### Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_SUPABASE_URL=https://qpwpyfcuqxtzqulqmbaf.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_sVb8V8jdZvc4y2gDsOuG0w_HaNVysF_
+VITE_SUPABASE_RESUME_BUCKET=resume
+VITE_SUPABASE_RESUME_PATH=sanjeet-kumar-resume.pdf
+```
+
+### Important
+
+- Use the Supabase publishable key in the frontend.
+- Do not use the direct PostgreSQL connection string in React code.
+- The PostgreSQL connection string is for server-side or admin tooling only.
+
+### Supabase Setup
+
+1. Run the SQL in `supabase/schema.sql` from the Supabase SQL editor.
+2. Create a public storage bucket named `resume`.
+3. Upload your resume PDF to the path in `VITE_SUPABASE_RESUME_PATH`.
+4. Update placeholder social and project links in `src/data/portfolio.js`.
+
+### Commands
+
+```bash
+npm install
+npm run dev
+npm run build
+```
