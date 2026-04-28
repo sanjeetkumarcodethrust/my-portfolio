@@ -102,12 +102,11 @@ export const fallbackProjects = [
   {
     id: 2,
     title: 'Job Portal',
-    description:
-      'A role-based hiring platform for recruiters and candidates with secure APIs, posting workflows, and application tracking.',
+    description: 'A role-based hiring platform with recruiter and candidate dashboards.',
     tech_stack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://example.com/job-portal',
-    category: 'Recruitment',
+    live_url: 'http://localhost:5173/',
+    category: 'Full Stack',
   },
   {
     id: 3,

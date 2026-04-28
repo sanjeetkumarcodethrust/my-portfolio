@@ -1,28 +1,19 @@
 {
-  "name": "my-portfolio",
+  "name": "job-portal-platform",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.54.0",
-    "framer-motion": "^12.6.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet-async": "^2.0.5",
-    "react-hot-toast": "^2.5.2",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^7.5.1"
+    "dev": "concurrently \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
+    "dev:client": "npm run dev --workspace client",
+    "dev:server": "npm run dev --workspace server",
+    "build": "npm run build --workspace client",
+    "seed": "npm run seed --workspace server"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17",
-    "vite": "^6.3.2"
+    "concurrently": "^9.1.2"
   }
 }
