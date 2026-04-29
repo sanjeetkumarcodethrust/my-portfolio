@@ -105,7 +105,7 @@ export const fallbackProjects = [
     description: 'A role-based hiring platform with recruiter and candidate dashboards.',
     tech_stack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'http://localhost:5173/',
+    live_url: 'https://your-jobportal.vercel.app',
     category: 'Full Stack',
   },
   {

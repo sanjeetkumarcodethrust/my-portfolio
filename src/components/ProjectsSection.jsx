@@ -65,7 +65,7 @@ export default function ProjectsSection({ projects, loading }) {
                     <a
                       href={githubUrl}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-white transition hover:border-white/20 hover:bg-white/5"
                     >
                       <FiGithub />
@@ -76,7 +76,7 @@ export default function ProjectsSection({ projects, loading }) {
                     <a
                       href={liveUrl}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
                     >
                       <FiArrowUpRight />

@@ -49,7 +49,7 @@ values
     'Role-based recruitment platform with job posting, application tracking, and secure REST APIs.',
     array['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
     'https://github.com/yourusername/job-portal',
-    'https://example.com/job-portal',
+    'https://jobportal-frontend-dun.vercel.app//job-portal',
     'Full Stack',
     2
   ),
