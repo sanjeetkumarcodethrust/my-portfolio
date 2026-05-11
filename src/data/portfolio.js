@@ -96,7 +96,7 @@ export const fallbackProjects = [
       'A MERN commerce platform with JWT authentication, seamless cart and checkout flows, and responsive storefront design.',
     tech_stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://example.com/myzon',
+    live_url: 'https://sanjeet-myzon.vercel.app', // Update with actual deployment
     category: 'Full Stack',
   },
   {
@@ -105,7 +105,7 @@ export const fallbackProjects = [
     description: 'A role-based hiring platform with recruiter and candidate dashboards.',
     tech_stack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://your-jobportal.vercel.app',
+    live_url: 'https://sanjeet-jobportal.vercel.app', // Update with actual deployment
     category: 'Full Stack',
   },
   {
@@ -115,7 +115,7 @@ export const fallbackProjects = [
       'A backend-focused short-link service with optimized queries, reliable redirects, and a clean API surface for link management.',
     tech_stack: ['Node.js', 'Express', 'SQL', 'Redis'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://example.com/url-shortener',
+    live_url: 'https://sanjeet-url-shortener.vercel.app', // Update with actual deployment
     category: 'Backend',
   },
 ];
@@ -161,5 +161,5 @@ export const seo = {
   title: 'Sanjeet Kumar | Full Stack Developer Portfolio',
   description:
     'Premium developer portfolio for Sanjeet Kumar, featuring MERN projects, skills, resume, and Supabase-powered contact flow.',
-  url: 'https://example.com',
+  url: 'https://sanjeet-kumar-portfolio.vercel.app',
 };
