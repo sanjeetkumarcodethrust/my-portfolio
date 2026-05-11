@@ -7,6 +7,10 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const hasSupabaseCredentials = Boolean(supabaseUrl && supabaseAnonKey);
 
+if (!hasSupabaseCredentials && import.meta.env.PROD) {
+  console.warn('Supabase credentials are missing in the production environment. Falling back to local data.');
+}
+
 export const supabase = hasSupabaseCredentials
   ? createClient(supabaseUrl, supabaseAnonKey, {
       auth: {
