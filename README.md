@@ -65,12 +65,6 @@ Myzon – E-commerce App
 - Responsive UI
 
 Project 2:
-Job Portal
-- Role-based auth
-- Job posting & tracking
-- Secure APIs
-
-Project 3:
 URL Shortener
 - Backend project
 - Short links + redirect

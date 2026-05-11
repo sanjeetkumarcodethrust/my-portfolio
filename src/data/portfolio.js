@@ -101,15 +101,6 @@ export const fallbackProjects = [
   },
   {
     id: 2,
-    title: 'Job Portal',
-    description: 'A role-based hiring platform with recruiter and candidate dashboards.',
-    tech_stack: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
-    github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://sanjeet-jobportal.vercel.app', // Update with actual deployment
-    category: 'Full Stack',
-  },
-  {
-    id: 3,
     title: 'URL Shortener',
     description:
       'A backend-focused short-link service with optimized queries, reliable redirects, and a clean API surface for link management.',
