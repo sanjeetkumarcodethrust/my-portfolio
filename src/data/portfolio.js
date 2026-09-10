@@ -96,7 +96,7 @@ export const fallbackProjects = [
       'A MERN commerce platform with JWT authentication, seamless cart and checkout flows, and responsive storefront design.',
     tech_stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
     github_url: 'https://github.com/sanjeetkumarcodethrust',
-    live_url: 'https://sanjeet-myzon.vercel.app', // Update with actual deployment
+    live_url: 'https://myzon-delta.vercel.app/',
     category: 'Full Stack',
   },
   {

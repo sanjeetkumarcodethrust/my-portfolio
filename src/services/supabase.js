@@ -46,7 +46,15 @@ export async function fetchProjects() {
     return fallbackProjects;
   }
 
-  return data;
+  // Override the placeholder URL from DB for Myzon
+  const patchedData = data.map(project => {
+    if (project.title === 'Myzon - E-commerce App' && project.live_url.includes('example.com')) {
+      return { ...project, live_url: 'https://myzon-delta.vercel.app/' };
+    }
+    return project;
+  });
+
+  return patchedData;
 }
 
 export function getResumeUrl() {

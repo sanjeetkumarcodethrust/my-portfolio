@@ -40,7 +40,7 @@ values
     'A complete MERN commerce experience with JWT authentication, streamlined cart flows, and order management.',
     array['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
     'https://github.com/yourusername/myzon',
-    'https://example.com/myzon',
+    'https://myzon-delta.vercel.app/',
     'Full Stack',
     1
   ),
