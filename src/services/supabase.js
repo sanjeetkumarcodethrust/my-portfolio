@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-import localResume from '../assets/Sanjeet_kumar_resume (2) (1).pdf';
+import localResume from '../assets/Sanjeet_Kumar_Resume.pdf';
 import { fallbackProjects } from '../data/portfolio';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
