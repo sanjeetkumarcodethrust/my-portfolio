@@ -37,24 +37,29 @@ export async function fetchProjects() {
     return fallbackProjects;
   }
 
-  const { data, error } = await supabase
-    .from('projects')
-    .select('*')
-    .order('featured_order', { ascending: true, nullsFirst: false });
+  try {
+    const { data, error } = await supabase
+      .from('projects')
+      .select('*')
+      .order('featured_order', { ascending: true, nullsFirst: false });
 
-  if (error || !data?.length) {
+    if (error || !data?.length) {
+      return fallbackProjects;
+    }
+
+    // Override the placeholder URL from DB for Myzon
+    const patchedData = data.map((project) => {
+      if (project.title === 'Myzon - E-commerce App' && project.live_url?.includes('example.com')) {
+        return { ...project, live_url: 'https://myzon-delta.vercel.app/' };
+      }
+      return project;
+    });
+
+    return patchedData;
+  } catch (err) {
+    console.warn('Could not load projects from Supabase. Using fallback projects:', err.message);
     return fallbackProjects;
   }
-
-  // Override the placeholder URL from DB for Myzon
-  const patchedData = data.map(project => {
-    if (project.title === 'Myzon - E-commerce App' && project.live_url.includes('example.com')) {
-      return { ...project, live_url: 'https://myzon-delta.vercel.app/' };
-    }
-    return project;
-  });
-
-  return patchedData;
 }
 
 export function getResumeUrl() {
