@@ -39,36 +39,26 @@ values
     'Myzon - E-commerce App',
     'A complete MERN commerce experience with JWT authentication, streamlined cart flows, and order management.',
     array['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    'https://github.com/yourusername/myzon',
+    'https://github.com/sanjeetkumarcodethrust',
     'https://myzon-delta.vercel.app/',
     'Full Stack',
     1
   ),
   (
-    'Job Portal',
-    'Role-based recruitment platform with job posting, application tracking, and secure REST APIs.',
-    array['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
-    'https://github.com/yourusername/job-portal',
-    'https://example.com/job-portal',
+    'Haircut | Salon Discovery & Booking Platform',
+    'A full-stack salon discovery and appointment scheduling platform featuring real-time geolocation search, interactive service menus, and modern booking workflows.',
+    array['React', 'Node.js', 'Express', 'MongoDB', 'Redux'],
+    'https://github.com/sanjeetkumarcodethrust/Hair_cut_salon',
+    'https://hairbar.vercel.app/',
     'Full Stack',
     2
   ),
   (
-    'Haircut | Salon Discovery & Booking Platform',
-    'MERN Stack  API Integration Service Booking'
-    'Haircut is a salon discovery and booking web application designed to help users explore salons and access available services through a convenient digital experience.
-The project focuses on connecting salon discovery with service selection and appointment booking in a single application.
-**Key features**
-- Salon discovery and salon listings
-- Service and menu exploration
-- Appointment booking workflow, where implemented
-- API integration for retrieving salon information, if implemented
-
-**Tech Stack:** MongoDB, Express.js, React.js, Node.js
-
-**What I learned:** Integrating external data sources, handling asynchronous API requests, and designing user-friendly service discovery workflows.'
-    'https://github.com/yourusername/url-shortener',
-    'https://example.com/url-shortener',
+    'URL Shortener',
+    'Backend-focused service that generates reliable short links and improves redirect performance with efficient database queries.',
+    array['Node.js', 'Express', 'SQL', 'Redis'],
+    'https://github.com/sanjeetkumarcodethrust',
+    'https://sanjeet-url-shortener.vercel.app',
     'Backend',
     3
   )

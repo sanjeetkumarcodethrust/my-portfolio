@@ -101,6 +101,16 @@ export const fallbackProjects = [
   },
   {
     id: 2,
+    title: 'Haircut - Salon Discovery & Booking Platform',
+    description:
+      'A full-stack salon discovery and appointment scheduling application featuring real-time geolocation search, interactive service menus, and booking workflows.',
+    tech_stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux'],
+    github_url: 'https://github.com/sanjeetkumarcodethrust/Hair_cut_salon',
+    live_url: 'https://hairbar.vercel.app/',
+    category: 'Full Stack',
+  },
+  {
+    id: 3,
     title: 'URL Shortener',
     description:
       'A backend-focused short-link service with optimized queries, reliable redirects, and a clean API surface for link management.',

@@ -47,10 +47,20 @@ export async function fetchProjects() {
       return fallbackProjects;
     }
 
-    // Override the placeholder URL from DB for Myzon
+    // Override placeholder URLs from DB if present
     const patchedData = data.map((project) => {
       if (project.title === 'Myzon - E-commerce App' && project.live_url?.includes('example.com')) {
         return { ...project, live_url: 'https://myzon-delta.vercel.app/' };
+      }
+      if (project.title?.toLowerCase().includes('haircut') || project.title?.toLowerCase().includes('salon')) {
+        return {
+          ...project,
+          live_url: project.live_url?.includes('example.com') || !project.live_url ? 'https://hairbar.vercel.app/' : project.live_url,
+          github_url: project.github_url?.includes('yourusername') || project.github_url?.includes('url-shortener') || !project.github_url
+            ? 'https://github.com/sanjeetkumarcodethrust/Hair_cut_salon'
+            : project.github_url,
+          category: project.category === 'Backend' ? 'Full Stack' : project.category,
+        };
       }
       return project;
     });
