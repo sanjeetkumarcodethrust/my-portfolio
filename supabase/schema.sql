@@ -54,9 +54,19 @@ values
     2
   ),
   (
-    'URL Shortener',
-    'Backend-focused service that generates reliable short links and improves redirect performance with efficient database queries.',
-    array['Node.js', 'Express', 'SQL', 'Redis'],
+    'Haircut | Salon Discovery & Booking Platform',
+    'MERN Stack  API Integration Service Booking'
+    'Haircut is a salon discovery and booking web application designed to help users explore salons and access available services through a convenient digital experience.
+The project focuses on connecting salon discovery with service selection and appointment booking in a single application.
+**Key features**
+- Salon discovery and salon listings
+- Service and menu exploration
+- Appointment booking workflow, where implemented
+- API integration for retrieving salon information, if implemented
+
+**Tech Stack:** MongoDB, Express.js, React.js, Node.js
+
+**What I learned:** Integrating external data sources, handling asynchronous API requests, and designing user-friendly service discovery workflows.'
     'https://github.com/yourusername/url-shortener',
     'https://example.com/url-shortener',
     'Backend',
